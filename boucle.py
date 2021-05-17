@@ -78,3 +78,19 @@ all([verif.endswith('.jpg') for verif in fichiers])
 
    # https://www.docstring.fr/glossaire/while/
 
+
+#afficher l'index des lettres du mot python
+
+mot = "Python"
+for i in range(len(mot)):
+    print(i)
+
+
+#afficher la table de multiplication du nombre 7
+
+nombre = 7
+ 
+for i in range(11):
+    print(f"{i} x {nombre} = {i * nombre}")
+
+    
